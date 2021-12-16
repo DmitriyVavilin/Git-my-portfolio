@@ -1,0 +1,426 @@
+body{
+    background: #fff;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #6c7279;
+    font-family: 'Montserrat', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/*Container*
+==============*/
+.container {
+    max-width: 1391px;
+    width: 100%;
+    margin: 0 auto;
+}
+/*//Container*
+==============*/
+
+/*Header*
+==============*/
+
+.header {
+    width: 100%;
+    max-width: 1920px;
+    height: 85px;
+    background-color: #ffffff;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+}
+
+.header__link a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #292929;
+    margin-right: 50px;
+}
+
+.header__link:last-child {
+    margin-right: 0;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+}
+
+.header__sign {
+    font-size: 20px;
+    color: #000000;
+    margin-right: 35px;
+    text-decoration: none;
+}
+
+.header__sign:last-child {
+    margin-right: 0;
+}
+
+.header__search-button {
+    font-size: 20px;
+    width: 183px;
+    height: 51px;
+    color: #fff;
+    background-color: #01996D;
+    border: 0;
+    border-radius: 4px;
+    padding: 13px 50px;
+    cursor: pointer;
+}
+/*//Header*
+==============*/
+
+/*Intro*
+==============*/
+
+.intro {
+    display: flex;
+    width: 100%;
+    height: 895px;
+    background: url("../image/intro__girl.png") center no-repeat;
+    background-size: cover;
+}
+
+.intro__title {
+    margin-top: 175px;
+    width: 440px;
+    height: 148px;
+    font-size: 32px;
+    color: #01996D;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.intro__text {
+    margin-top: 30px;
+    width: 420px;
+    height: 123px;
+    font-size: 20px;
+    color: #484848;
+    line-height: 1.5;
+}
+
+.intro__batton {
+    margin-top: 38px;
+    width: 227px;
+    height: 70px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #01996D;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/*//Intro*
+==============*/
+
+/*Info*
+==============*/
+
+.info {
+    width: 100%;
+    height: 1500px;
+}
+
+.info__works {
+    margin-top: 169px;
+    font-size: 24px;
+    color: #424242;
+    font-weight: 600;
+}
+
+.info__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__title {
+    margin-right: 136px;
+    width: 584px;
+    height: 158px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #01996D;
+    line-height: 1.5;
+}
+
+.info__subtext {
+    padding: 23px 0;
+    width: 671px;
+    height: 269px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.info__inner {
+    display: flex;
+}
+
+.info__item {
+    margin-right: 95px;
+}
+
+.info__item-height {
+    padding-top: 40px;
+}
+
+.info__item-height .info__name {
+    position: relative;
+    top: 8%;
+    left: 28%;
+}
+
+.info__item-bottom {
+    padding-top: 250px;
+}
+
+.info__item-bottom .info__name {
+    position: relative;
+    top: 13%;
+    left: 21%;
+}
+
+.info__number {
+    position: absolute;
+    font-size: 150px;
+    font-weight: 400;
+    color: #01996D33;
+    opacity: .50;
+}
+
+.info__name {
+    position: relative;
+    top: 10%;
+    left: 21%;
+    margin-bottom: 155px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.info__text {
+    padding-top: 60px;
+    margin-bottom: 60px;
+    width: 382px;
+    font-size: 20px;
+    line-height: 1.5;
+
+}
+
+.info__photo {
+    margin-bottom: 60px;
+}
+
+/*//Info*
+==============*/
+
+/*Story*
+==============*/
+.story {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 910px;
+    background: #245852;
+}
+
+.story__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.story__title {
+    margin: 70px 0;
+    font-size: 50px;
+    color: #fff ;
+}
+
+.story__video {
+    margin: 50px 0;
+}
+
+
+.story__text {
+    margin: 35px 0;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.story__button {
+    width: 240px;
+    height: 65px;
+    background-color: #01996D;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    font-size: 20px;
+}
+/*//Story*
+==============*/
+
+/*Diary*
+==============*/
+
+.diary {
+    width: 100%;
+    height: 900px;
+}
+
+.diary__inner {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.diary__photo {
+    margin-right: 85px;
+    position: relative;
+    width: 640px;
+    height: 570px;
+    background-color: #01996D33;
+}
+
+.diary__questions {
+    position: absolute;
+    bottom: -18%;
+    left: -27%;
+    z-index: 5;
+    background-color: #fff;
+    text-align: center;
+    width: 390px;
+    height: 390px;
+    box-shadow: 0 0 1px 2px #d4d1d1;
+    border-radius: 5px;
+}
+
+.diary__questions-text {
+    font-size: 20px;
+    margin: 0 60px;
+    padding-bottom: 15px;
+    color: #000;
+    font-weight: 600;
+    border-bottom: 1px solid #000;
+
+}
+
+.diary__photo1-min {
+    margin: 20px 0;
+    font-size: 20px;
+    width: 105px;
+    height: 105px;
+    border-radius: 100px;
+    background-color: #01996D33;
+}
+
+.diary__name {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.diary__subtitle {
+    font-size: 25px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.diary__info {
+    font-size: 18px;
+    color: #000000;
+}
+
+.diary__info li {
+    margin: 0 0 20px;
+}
+
+.diary__product {
+
+    font-size: 25px;
+    color: #424242;
+    font-weight: 600;
+}
+
+.diary__title {
+    margin: 10px 0 20px;
+    font-size: 55px;
+    color: #01996D;
+    font-weight: 700;
+}
+
+.diary__text {
+    font-size: 20px;
+    font-weight: 400;
+    color: #484848;
+}
+
+.diary__button {
+    margin-top: 38px;
+    width: 227px;
+    height: 70px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #01996D;
+    color: #ffffff;
+    font-size: 20px;
+}
+/*//Diary*
+==============*/
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 655px;
+    background-color: #245852;
+}
+
+.footer__logo {
+    margin: 95px 0 60px 43px;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: 43px;
+}
+
+.footer__list {
+    list-style: none;
+}
+
+.footer__link a {
+    display: block;
+    margin-bottom: 50px;
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+
