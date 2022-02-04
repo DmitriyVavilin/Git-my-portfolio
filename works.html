@@ -10,84 +10,31 @@
 </head>
 <body>
     <!-- Header -->
-<header class="header">
-    <div class="header__burger">
-        <input id="header__toggle" type="checkbox" />
-        <label class="header__btn" for="header__toggle">
-            <span></span>
-        </label>
-        <ul class="header__list">
-            <li><a class="header__item" href="blog.html">Blog</a></li>
-            <li><a class="header__item" href="index.html">Contact</a></li>
-          </ul>
-    </div>
-</header>
+    <header class="header">
+        <div class="header__burger">
+            <input id="header__toggle" type="checkbox" />
+            <label class="header__btn" for="header__toggle">
+                <span></span>
+            </label>
+            <ul class="header__list">
+                <li><a class="header__item" href="blog.html">Blog</a></li>
+                <li><a class="header__item" href="works.html">Works</a></li>
+                <li><a class="header__item" href="index.html">Contact</a></li>
+              </ul>
+        </div>
+    </header>
 <!--//Header -->
-
-<!--Intro -->
-<div class="intro">
-    <div class="container">
-        <div class="intro__inner">
-            <div class="intro__left">
-                <h1 class="intro__title">Hi, I am John,<br>Creative Technologist</h1>
-                <div class="intro__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
-                <button class="btn">Download Resume</button>
-
-            </div>
-            <div class="intro__right">
-                <img class="intro__photo" src="image/photo.jpg" alt="">
-            </div>
-        </div>
-    </div>
-</div>
-<!--//Intro -->
-
-<!--Post -->
-<div class="post">
-    <div class="container">
-        <div class="post-all">
-            <a href="#">View all</a>
-        </div>
-        <div class="post-media">
-            <a href="#">Recent posts</a>
-        </div>
-        <div class="post__inner">
-            <div class="post__item">
-                <h2 class="post__title">Making a design system from scratch</h2>
-                    <div class="post__data">
-                        <time class="post__time" datetime="2020-02-12">12 Feb 2020</time>
-                        <div class="post__name">Design, Pattern</div>
-                    </div>
-                <div class="post__text">
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                </div>
-            </div>
-            <div class="post__item">
-                <h2 class="post__title">Making a design system from scratch</h2>
-                    <div class="post__data">
-                        <time class="post__time" datetime="2020-02-12">12 Feb 2020</time>
-                        <div class="post__name">Design, Pattern</div>
-                    </div>
-                <div class="post__text">
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--//Post -->
-
 <!--Works -->
 <div class="works">
     <div class="container">
-        <div class="works__featured">Featured works</div>
+        <div class="works__featured works__featured-none">Work</div>
             <div class="works__inner">
                 <div class="works__item">
                     <div class="works__icon">
-                        <img src="image/Works/works1.png" alt="">
+                        <img class="works__photo" src="image/Works/works1.png" alt="">
                     </div>
                     <div class="works__content">
-                        <div class="works__name">Designing Dashboards</div>
+                        <div class="works__name"><a class="works__link" href="work.html">Designing Dashboards</a></div>
                         <div class="works__data">
                             <div class="works__year">2020</div>
                             <div class="works_preview">Dashboard</div>
@@ -99,10 +46,10 @@
                 </div>
                 <div class="works__item">
                     <div class="works__icon">
-                        <img src="image/Works/works2.png" alt="">
+                        <img class="works__photo" src="image/Works/works2.png" alt="">
                     </div>
                     <div class="works__content">
-                        <div class="works__name">Designing Dashboards</div>
+                        <div class="works__name"><a class="works__link" href="work.html">Vibrant Portraits of 2020</a> </div>
                         <div class="works__data">
                             <div class="works__year">2018</div>
                             <div class="works_preview">Illustration</div>
@@ -114,10 +61,10 @@
                 </div>
                 <div class="works__item">
                     <div class="works__icon">
-                        <img src="image/Works/works3.png" alt="">
+                        <img class="works__photo" src="image/Works/works3.png" alt="">
                     </div>
                     <div class="works__content">
-                        <div class="works__name">Designing Dashboards</div>
+                        <div class="works__name"><a class="works__link" href="work.html">36 Days of Malayalam type</a> </div>
                         <div class="works__data">
                             <div class="works__year">2018</div>
                             <div class="works_preview">Typography</div>
@@ -131,7 +78,29 @@
     </div>
 </div>
 <!--//Works -->
-<!--Social -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Footer -->
 <footer class="footer">
     <div class="container">
         <div class="footer__social">
@@ -160,5 +129,6 @@
         <div class="footer__text">Copyright ©2020 All rights reserved </div>
         </div>
 </footer>
+<!--//Footer -->
 </body>
 </html>
